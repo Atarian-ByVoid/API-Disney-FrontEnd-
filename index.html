@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="icon" href="disney.jpg " type="image/x-icon" />
+    <link rel="shortcut icon" href="disney.jpg" type="image/x-icon" />
+    <title>DisneyAPI</title>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="/images/logo.png">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="/pages/others.html">Others</a>
+            <a href="">Contact</a>
+        </nav>
+        <form action="#" class="searchInput">
+            <input type="text" id="searchInput" placeholder="Find a characters for page">
+        </form>
+    </header>
+    <div class="pagination">
+        <button class="pagination-button" onclick="previousPage()">Página Anterior</button>
+        <button class="pagination-button" onclick="nextPage()">Próxima Página</button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <img src="/images/disney.png" alt="Welcome Image">
+            <h2>Bem-vindo ao DisneyAPI.dev</h2>
+            <p>Aqui você pode explorar os personagens da Disney!</p>
+
+            <button id="close-btn">Fechar</button>
+        </div>
+    </div>
+    <div id="characters" class="character-grid"></div>
+
+    
+  <footer>
+    <div class="container-footer">
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/carlos-alberto-94255a21b/"><img src="/images/social-media/linkedin.png" alt="linkedin"></a>
+        <a href="https://github.com/Atarian-ByVoid"><img src="/images/social-media/github.png" alt="github"></a>
+        <a href="https://twitter.com/atarian_by_void"><img src="/images/social-media/twitter.png" alt="twitter"></a>
+      </div>
+      <p>&copy; 2023 DisneyAPI. All rights reserved.</p>
+    </div>
+  </footer>
+
+    <script src="/Js/script.js"></script>
+    <script src="/Js/modal.js"></script>
+
+</body>
+</html>

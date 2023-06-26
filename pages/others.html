@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/CSS/others.css">
+    <link rel="icon" href="disney.jpg " type="image/x-icon" />
+    <link rel="shortcut icon" href="disney.jpg" type="image/x-icon" />
+    <title>Others</title>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="/images/logo.png">
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/pages/others.html">Others</a>
+            <a href="">Contact</a>
+        </nav>
+        <form action="#" class="searchForm">
+            <input type="text" id="searchInput" placeholder="Search character by name">
+            <button type="button" id="searchButton" onclick="filterCharacters('Movie Name')">Search</button>
+          </form>
+          
+          
+        </header>
+        
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <img src="/images/disney.png" alt="Welcome Image">
+            <h2>Procure pelo seu perssonagem favorito e veja quais filmes ele participou </h2>
+
+            <button id="close-btn">Fechar</button>
+        </div>
+    </div>
+      
+        <div id="character"></div>
+
+    <script src="/Js/searchPerson.js"></script>
+    <script src="/Js/modal.js"></script>
+
+
+    
+</body>
+</html>
